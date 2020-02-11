@@ -1,6 +1,7 @@
 <?php
 include_once "header.php";
 ?>
+
     <div class="row wrapper border-bottom white-bg page-heading">
         <div class="col-lg-10">
             <h2>محصولات</h2>
@@ -33,7 +34,7 @@ include_once "header.php";
             <div class="ibox-content">
 
                 <div class="row">
-                    <a class="btn btn-primary" href="create.php">
+                    <a class="btn btn-primary" href="createProductForm.php">
                         <i class="fa fa-plus">
                         </i>
                         &nbsp;محصول جدید</a>

@@ -7,13 +7,32 @@
 
     <title>رادا | جداول ایستا</title>
 
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap.rtl.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="css/plugins/chosen/chosen.css" rel="stylesheet">
+    <link href="css/plugins/colorpicker/bootstrap-colorpicker.min.css" rel="stylesheet">
+    <link href="css/plugins/cropper/cropper.min.css" rel="stylesheet">
+    <link href="css/plugins/switchery/switchery.css" rel="stylesheet">
+    <link href="css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="css/plugins/nouslider/jquery.nouislider.css" rel="stylesheet">
+    <link href="css/plugins/persian-datepicker/persian-datepicker.min.css" rel="stylesheet">
+    <link href="css/plugins/ionRangeSlider/ion.rangeSlider.css" rel="stylesheet">
+    <link href="css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" rel="stylesheet">
+    <link href="css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.rtl.css" rel="stylesheet">
+    <link href="css/plugins/clockpicker/clockpicker.css" rel="stylesheet">
+    <link href="css/plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.rtl.css" rel="stylesheet">
 
+    <!-- Mainly scripts -->
+    <script src="js/jquery-2.1.1.js">
+    </script>
+    <!-- Input Mask-->
+    <script src="js/plugins/jasny/jasny-bootstrap.min.js">
+    </script>
 </head>
 
 <body>
@@ -25,11 +44,13 @@
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
                     <div class="dropdown profile-element"> <span>
-                                <img alt="image" class="img-circle" src="img/profile_small.jpg" />
+                                <img alt="image" class="img-circle" src="img/profile_small.jpg"/>
                                  </span>
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                                <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">ایمان عباسی</strong>
-                                 </span> <span class="text-muted text-xs block">مدیر هنری <b class="caret"></b></span> </span> </a>
+                                <span class="clear"> <span class="block m-t-xs"> <strong
+                                                class="font-bold">ایمان عباسی</strong>
+                                 </span> <span class="text-muted text-xs block">مدیر هنری <b class="caret"></b></span> </span>
+                        </a>
                         <ul class="dropdown-menu animated fadeInLeft m-t-xs">
                             <li><a href="profile.html">پروفایل</a></li>
                             <li><a href="contacts.html">مخاطبین</a></li>
@@ -43,10 +64,12 @@
                     </div>
                 </li>
                 <li class="active">
-                    <a href="index.php"><i class="fa fa-th-large"></i> <span class="nav-label">محصولات</span> <span class="fa arrow"></span></a>
+                    <a href="index.php"><i class="fa fa-th-large"></i> <span class="nav-label">محصولات</span> <span
+                                class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
-                        <li><a href="product/create.php">محصول جدید</a></li>
+                        <li><a href="createProductForm.php">محصول جدید</a></li>
                         <li><a href="index.php">همه محصولات</a></li>
+                        </li>
                     </ul>
                 </li>
             </ul>
@@ -57,10 +80,12 @@
         <div class="row border-bottom">
             <nav class="navbar navbar-static-top" role="navigation">
                 <div class="navbar-header">
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i>
+                    </a>
                     <form role="search" class="navbar-form-custom" action="search_results.html">
                         <div class="form-group">
-                            <input type="text" placeholder="جستجو" class="form-control" name="top-search" id="top-search">
+                            <input type="text" placeholder="جستجو" class="form-control" name="top-search"
+                                   id="top-search">
                         </div>
                     </form>
                 </div>
@@ -70,7 +95,7 @@
                     </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                            <i class="fa fa-envelope"></i>  <span class="label label-warning">16</span>
+                            <i class="fa fa-envelope"></i> <span class="label label-warning">16</span>
                         </a>
                         <ul class="dropdown-menu dropdown-messages">
                             <li>
@@ -123,7 +148,7 @@
                     </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                            <i class="fa fa-bell"></i>  <span class="label label-primary">8</span>
+                            <i class="fa fa-bell"></i> <span class="label label-primary">8</span>
                         </a>
                         <ul class="dropdown-menu dropdown-alerts">
                             <li>
